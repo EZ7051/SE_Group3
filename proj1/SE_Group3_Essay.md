@@ -23,19 +23,19 @@ We got 5 projects and after trying to run all of them, we made two of our applic
 
 
 
-ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+>ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following >dependency conflicts.
 
-xarray 2022.11.0 requires pandas>=1.3, but you have pandas 1.1.5 which is incompatible.
+>xarray 2022.11.0 requires pandas>=1.3, but you have pandas 1.1.5 which is incompatible.
 
-jupyterlab-server 2.19.0 requires requests>=2.28, but you have requests 2.26.0 which is incompatible.
+>jupyterlab-server 2.19.0 requires requests>=2.28, but you have requests 2.26.0 which is incompatible.
 
-conda-repo-cli 1.0.27 requires clyent==1.2.1, but you have clyent 1.2.2 which is incompatible.
+>conda-repo-cli 1.0.27 requires clyent==1.2.1, but you have clyent 1.2.2 which is incompatible.
 
-conda-repo-cli 1.0.27 requires nbformat==5.4.0, but you have nbformat 5.7.0 which is incompatible.![](Aspose.Words.6da1bd32-516e-4fbd-8b3e-a99145b1e0f0.002.png)
+>conda-repo-cli 1.0.27 requires nbformat==5.4.0, but you have nbformat 5.7.0 which is incompatible.![](Aspose.Words.6da1bd32-516e-4fbd-8b3e-a99145b1e0f0.002.png)
 
-conda-repo-cli 1.0.27 requires requests==2.28.1, but you have requests 2.26.0 which is incompatible.
+>conda-repo-cli 1.0.27 requires requests==2.28.1, but you have requests 2.26.0 which is incompatible.
 
-black 22.6.0 requires click>=8.0.0, but you have click 7.1.2 which is incompatible.
+>black 22.6.0 requires click>=8.0.0, but you have click 7.1.2 which is incompatible.
 
 
      - Some of the components were not mentioned in the requirements.txt file which would only work with a specified version. Like flask==2.1.2, protobuf==3.20.0, altair==4, and updating webdriver\_manager to the latest version in case of the cheap buy application.
@@ -43,20 +43,18 @@ black 22.6.0 requires click>=8.0.0, but you have click 7.1.2 which is incompatib
 
 
 
-TypeError: Descriptors cannot not be created directly.
+>TypeError: Descriptors cannot not be created directly.
 
-If this call came from a \_pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+>If this call came from a \_pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
 
-If you cannot immediately regenerate your protos, some other possible workarounds are:
+>If you cannot immediately regenerate your protos, some other possible workarounds are:
 
-1. Downgrade the protobuf package to 3.20.x or lower.
-1. Set PROTOCOL\_BUFFERS\_PYTHON\_IMPLEMENTATION=python(but this will use pure-Python
+>1. Downgrade the protobuf package to 3.20.x or lower.
+>1. Set PROTOCOL\_BUFFERS\_PYTHON\_IMPLEMENTATION=python(but this will use pure-Python parsing and will be much slower).
 
-parsing and will be much slower).
+>ModuleNotFoundError: No module named 'altair.vegalite.v4'
 
-ModuleNotFoundError: No module named 'altair.vegalite.v4'
-
-Exception in thread... There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST\_RELEASE\_116.0.5845
+>Exception in thread... There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST\_RELEASE\_116.0.5845
 
 
        - In certain projects, the documentation isn't precise or thorough enough, especially when it comes to error management and resolution techniques. This shortcoming might make it difficult for users to troubleshoot problems successfully, making it essential to improve documentation by offering precise, thorough, and useful advice for fixing errors.
