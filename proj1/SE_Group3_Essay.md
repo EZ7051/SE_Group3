@@ -19,7 +19,7 @@ Sumalatha Mashetty smashet
 - What was hard about the process :
   - While installing the requirements file encountered many version incompatibility issues like below :
 
-Unset![](Aspose.Words.6da1bd32-516e-4fbd-8b3e-a99145b1e0f0.001.png)
+'''
 
 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 
@@ -34,11 +34,12 @@ conda-repo-cli 1.0.27 requires nbformat==5.4.0, but you have nbformat 5.7.0 whic
 conda-repo-cli 1.0.27 requires requests==2.28.1, but you have requests 2.26.0 which is incompatible.
 
 black 22.6.0 requires click>=8.0.0, but you have click 7.1.2 which is incompatible.
+'''
 
 - Some of the components were not mentioned in the requirements.txt file which would only work with a specified version. Like flask==2.1.2, protobuf==3.20.0, altair==4, and updating webdriver\_manager to the latest version in case of the cheap buy application.
 - Below are the errors for the same :
 
-Unset![](Aspose.Words.6da1bd32-516e-4fbd-8b3e-a99145b1e0f0.003.png)
+'''
 
 TypeError: Descriptors cannot not be created directly.
 
@@ -54,6 +55,7 @@ parsing and will be much slower).
 ModuleNotFoundError: No module named 'altair.vegalite.v4'
 
 Exception in thread... There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST\_RELEASE\_116.0.5845
+'''
 
 - In certain projects, the documentation isn't precise or thorough enough, especially when it comes to error management and resolution techniques. This shortcoming might make it difficult for users to troubleshoot problems successfully, making it essential to improve documentation by offering precise, thorough, and useful advice for fixing errors.
 - In one project, the absence of a requirements.txt file posed significant challenges during installation, creating difficulties due to unclear dependencies.
