@@ -11,9 +11,12 @@
 | Soubhagya Akkena       | sakkena                            |
 | Sumalatha Mashetty     | smashet                            |
 
-**Github repository**:[ ](https://github.ncsu.edu/araveen/engr-ALDA-Fall2022-H35)[https://github.com/EZ7051/SE_Group3 ](https://github.com/EZ7051/SE_Group3)</br>
-We got 5 projects and after trying to run all of them, we made two of our applications run successfully after many modifications, errors and installations. Out of those two we found the ‘Cheapbuy’ project needs little grooming. So we, Team - 3 chose ‘Cheapbuy’ as our project 2 to make the application run seamlessly and to make it available for everyone. We also jotted down in this documentation, the problems and errors we faced during the process and how we overcame them. This documentation also includes a few points on how we can avoid those pains in our upcoming projects.
-
+</br>
+We got 5 projects and after trying to run all of them, we made two of our applications run successfully after many modifications, errors, and installations. Out of those two, we found the ‘Cheapbuy’ project needs a little grooming. So we, Team - 3 chose ‘Cheapbuy’ as our project 2 to make the application run seamlessly and to make it available for everyone. We also jotted down in this documentation, the problems and errors we faced during the process and how we overcame them. This documentation also includes a few points on how we can avoid those pains in our upcoming projects.</br>
+</br>
+Please find the attached YouTube working video of the project Cheapbuy:</br>
+https://www.youtube.com/watch?v=ngtdJKm3cjU </br>
+</br>
 
 - What was hard about the process :
     - While installing the requirements file we encountered many version incompatibility issues.
