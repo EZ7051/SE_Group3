@@ -19,52 +19,15 @@ We got 5 projects and after trying to run all of them, we made two of our applic
 
 
 - What was hard about the process :
-    - While installing the requirements file encountered many version incompatibility issues like below :
-
-
-
->ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following >dependency conflicts.
-
->xarray 2022.11.0 requires pandas>=1.3, but you have pandas 1.1.5 which is incompatible.
-
->jupyterlab-server 2.19.0 requires requests>=2.28, but you have requests 2.26.0 which is incompatible.
-
->conda-repo-cli 1.0.27 requires clyent==1.2.1, but you have clyent 1.2.2 which is incompatible.
-
->conda-repo-cli 1.0.27 requires nbformat==5.4.0, but you have nbformat 5.7.0 which is incompatible.![](Aspose.Words.6da1bd32-516e-4fbd-8b3e-a99145b1e0f0.002.png)
-
->conda-repo-cli 1.0.27 requires requests==2.28.1, but you have requests 2.26.0 which is incompatible.
-
->black 22.6.0 requires click>=8.0.0, but you have click 7.1.2 which is incompatible.
-
-
-     - Some of the components were not mentioned in the requirements.txt file which would only work with a specified version. Like flask==2.1.2, protobuf==3.20.0, altair==4, and updating webdriver\_manager to the latest version in case of the cheap buy application.
-     - Below are the errors for the same :
-
-
-
->TypeError: Descriptors cannot not be created directly.
-
->If this call came from a \_pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
-
->If you cannot immediately regenerate your protos, some other possible workarounds are:
-
->1. Downgrade the protobuf package to 3.20.x or lower.
->1. Set PROTOCOL\_BUFFERS\_PYTHON\_IMPLEMENTATION=python(but this will use pure-Python parsing and will be much slower).
-
->ModuleNotFoundError: No module named 'altair.vegalite.v4'
-
->Exception in thread... There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST\_RELEASE\_116.0.5845
-
-
-       - In certain projects, the documentation isn't precise or thorough enough, especially when it comes to error management and resolution techniques. This shortcoming might make it difficult for users to troubleshoot problems successfully, making it essential to improve documentation by offering precise, thorough, and useful advice for fixing errors.
-      - In one project, the absence of a requirements.txt file posed significant challenges during installation, creating difficulties due to unclear dependencies.
-      - One of the projects was not working on an outdated library so we had to update the corresponding library which included additional code changes. Also, some of the libraries were deprecated / no longer supported by the system.
-      - One of the projects did not mention the installation and setup instructions clearly which made the whole process tedious. For example, the database connection script wasn’t mentioned.
-      - In one of our projects, we encountered a situation where some of the components and modules they had utilized were no longer compatible with the latest versions. Consequently, we were unable to successfully execute the project using the current software versions, leading us to downgrade these components to earlier versions in order to maintain functionality.
-      - In one of the projects, proper test cases were not provided, thus the boundary conditions were left out.
-      - Some projects did not have proper API documentation. It was difficult to understand the functionalities of the API.
-      - Some of the videos could not capture all the aspects of the functionalities of each module
+    - While installing the requirements file we encountered many version incompatibility issues.
+    - Some of the components were not mentioned in the requirements.txt file which would only work with a specified version. Like flask==2.1.2, protobuf==3.20.0, altair==4, and updating webdriver\_manager to the latest version in case of the cheap buy application.
+    - In certain projects, the documentation isn't precise or thorough enough, especially when it comes to error management and resolution techniques. This shortcoming might make it difficult for users to troubleshoot problems successfully, making it essential to improve documentation by offering precise, thorough, and useful advice for fixing errors.
+    - In one project, the absence of a requirements.txt file posed significant challenges during installation, creating difficulties due to unclear dependencies.
+    - One of the projects was not working on an outdated library so we had to update the corresponding library which included additional code changes. Also, some of the libraries were deprecated / no longer supported by the system.
+    - One of the projects did not mention the installation and setup instructions clearly which made the whole process tedious. For example, the database connection script wasn’t mentioned.        - In one of our projects, we encountered a situation where some of the components and modules they had utilized were no longer compatible with the latest versions. Consequently, we were unable to successfully execute the project using the current software versions, leading us to downgrade these components to earlier versions in order to maintain functionality.
+    - In one of the projects, proper test cases were not provided, thus the boundary conditions were left out.
+    - Some projects did not have proper API documentation. It was difficult to understand the functionalities of the API.
+    - Some of the videos could not capture all the aspects of the functionalities of each module
 - How can you avoid it and what practices are you committing to perform in project2 to avoid that pain:
     - We need to make sure that all the components are mentioned inside the requirements.txt file with the proper versioning.
     - To enhance user support, creating a set of FAQs addressing common beginner errors encountered during application installation can be invaluable, offering quick solutions and improving the overall user experience.
