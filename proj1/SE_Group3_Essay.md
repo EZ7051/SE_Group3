@@ -1,8 +1,7 @@
-﻿**CSC 510 Software Engineering Project-1**
+<h1 style="text-align: center;">CSC 510 Software Engineering Project-1</h1>
 
-**Group - 3**
-
-**Team members:**
+<h3 style="text-align: center;">Group - 3</h3>
+<h3 style="text-align: center;">Team members:</h3>
 
 | Name                   | Unity ID                           |
 |------------------------|------------------------------------|
