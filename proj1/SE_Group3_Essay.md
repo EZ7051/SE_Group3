@@ -39,6 +39,8 @@ https://www.youtube.com/watch?v=ngtdJKm3cjU </br>
     - Continuously test the project on various platforms and environments to identify and resolve compatibility issues before they become major roadblocks.
     - Implement a CI/CD pipeline that automatically builds and tests the project with different configurations. This can help catch compatibility issues early in the development process.
     - Commit to providing thorough and clear documentation for the project. Include step-by-step instructions for setting up the environment, running the application, and troubleshooting common issues. Document any potential pitfalls and their solutions.
-    - In one of the projects, the code coverage was just 35%. Maintaining high code coverage is essential for quality assessment of code.
+    - In one of the projects, the code coverage was just 35%. Maintaining high code coverage is essential for the quality assessment of code.
     - Aim to develop a comprehensive suite of unit test cases for our code that cover various code paths and scenarios.
     - Provide effective API documentation that gives clear and concise descriptions for each endpoint, including what it does and how to use it. Effective API documentation is essential for ensuring that developers can quickly and accurately implement the API into their projects.
+    - Maintain a backup repository to mitigate risks associated with data loss
+    - Manage releases and tags of the repository that formalise maintenance and distribution of the software. It ensures that the stability of the code is maintained. 
