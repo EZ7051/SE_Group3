@@ -31,7 +31,8 @@
 | Evidence that the members of the team are working across multiple places in the code base                                                                                               | 2          | [https://github.com/EZ7051/cheapBuy/commits/main](https://github.com/EZ7051/cheapBuy/commits/main)                                                                                         |
 | Short release cycles                                                                                                                                                                    | 2          |
 | | |
-|Sustanability|Assesment|
+| | |
+|**Sustanability**|**Assesment**|
 | Does your website and documentation provide a clear, high-level overview of your software?                                                                                                                     | Yes       |
 | Does your website and documentation clearly describe the type of user who should use your software?                                                                                                            | Yes       |
 | Do you publish case studies to show how your software has been used by yourself and others?                                                                                                                    | Yes       |
